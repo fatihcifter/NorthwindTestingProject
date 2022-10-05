@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "42ba147d-befe-41da-810a-5d8cf02edbc9": {
+      "ProjectGuid": "42ba147d-befe-41da-810a-5d8cf02edbc9",
+      "DisplayName": "TodoApi",
+      "ColorIndex": 0
+    },
+    "9c8c8819-5dd6-4b5e-ae0e-48cc0f582f89": {
+      "ProjectGuid": "9c8c8819-5dd6-4b5e-ae0e-48cc0f582f89",
+      "DisplayName": "TodoApi",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Diğer Dosyalar",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

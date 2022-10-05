@@ -1,0 +1,25 @@
+﻿<Window x:Class="wpfUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="541" Width="912">
+    <Grid Margin="0,0,0,-6">
+        <Button x:Name="Ordersbtn" Content="Orders" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" Height="60" Width="107" Click="Orders_Click"/>
+        <Button x:Name="Productsbtn" Content="Products" HorizontalAlignment="Left" Margin="141,6,0,0" VerticalAlignment="Top" Height="60" Width="108" Click="Products_Click"/>
+        <DataGrid x:Name="DataGridView" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,82,193,10"/>
+        <Button x:Name="Categoriesbtn" Content="Categories" HorizontalAlignment="Left" Margin="271,6,0,0" VerticalAlignment="Top" Height="60" Width="107" Click="Categories_Click"/>
+        <Button x:Name="Suppliersbtn" Content="Suppliers" HorizontalAlignment="Left" Margin="526,6,0,0" VerticalAlignment="Top" Height="60" Width="108" Click="Suppliers_Click"/>
+        <Button x:Name="Shippersbtn" Content="Shippers" HorizontalAlignment="Left" Margin="654,6,0,0" VerticalAlignment="Top" Height="60" Width="108" Click="Shippers_Click"/>
+        <Button x:Name="Employessbtn" Content="Employess" HorizontalAlignment="Left" Margin="784,6,0,0" VerticalAlignment="Top" Height="60" Width="107" Click="Employess_Click"/>
+        <Button x:Name="Customersbtn" Content="Customers" HorizontalAlignment="Left" Margin="399,6,0,0" VerticalAlignment="Top" Height="60" Width="108" Click="Customers_Click"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="0" Margin="1180,381,0,0" VerticalAlignment="Top" Width="4"/>
+        <Button x:Name="AddItem" Content="Ekle" HorizontalAlignment="Left" Margin="769,144,0,0" VerticalAlignment="Top" Height="48" Width="96" Click="AddItem_Click"/>
+        <Button x:Name="DeleteItem" Content="Sil" HorizontalAlignment="Left" Margin="769,197,0,0" VerticalAlignment="Top" Height="48" Width="96" Click="DeleteItem_Click"/>
+        <Button x:Name="Update" Content="Güncelle" HorizontalAlignment="Left" Margin="769,250,0,0" VerticalAlignment="Top" Height="48" Width="96" Click="Update_Click"/>
+        <Button x:Name="Detailsbtn" Content="Button" HorizontalAlignment="Left" Margin="769,303,0,0" VerticalAlignment="Top" Height="48" Width="96" Click="Detailsbtn_Click"/>
+
+    </Grid>
+</Window>
